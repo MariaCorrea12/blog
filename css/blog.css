@@ -1,0 +1,170 @@
+body{
+    background-color: #E8E8E8;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	padding: 0;
+	
+}
+
+
+.logo{
+ 	width: 100%;
+
+}
+
+.menu{
+	max-width: 800px;
+	margin-right: 100px;
+	float: right;
+	padding-top: 0;
+}
+
+.menu > a {
+	display: inline-block;
+	padding: 10px;
+	font: 1.0em arial;
+	color: #808000;
+	margin-top: 50px;
+}
+
+
+@media (max-width: 800px){
+	.menu > a {
+		display: block;
+	}
+}	
+
+p {
+	font: 0.95em eras medium itc, sans-serif;
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 1.4em; 
+	text-align: justify;
+}
+
+h2{
+	font: 1.5em arial black, sans-serif;
+	color: #808000;
+	margin-bottom: 50px;
+	margin-top: 70px;
+}
+
+
+article {
+	text-align: justify;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+p.diferente{
+	text-align:center;
+	margin:10px;
+	font: 1.4em eras medium itc, sans-serif ;
+	color: #BDB76B;
+}
+
+ 
+
+ .aside_fatec li{
+	 margin-left:100px;
+	 width: 310px;
+	 height: 250px;
+ }
+ 
+
+.img_segunda {
+    width: 350px;
+	height: 180px;
+	border: 3px solid #BDB76B;
+	float: right;
+	margin-left: 5px;
+    	
+}
+
+.img_terceira {
+    width: 300px;
+	height: 330px;
+	border: 3px solid #BDB76B;
+	float: right;
+	margin-left: 10px;
+}
+
+.img_quarta {
+	width:300px;
+	height: 350px;
+	border: 3px solid #BDB76B;
+	float: left;
+	margin-right: 10px;
+	
+}
+
+.img_quinta {
+	width: 725px;
+	height: 400px;
+	float: center;
+}
+
+.img_sexta {
+	width: 70px;
+	height: 70px;
+	float: right;
+}
+
+.img_oitava {
+	width: 100%;
+	height: 100%;
+	float: center;
+}
+
+.img_primeira{
+	width: 170px;
+	height: 120px;
+	float: right;
+	margin-left: 10px;
+	border: 3px solid #BDB76B;
+}
+
+.img_nona {
+    width: 330px;
+	height: 400px;
+	float: right;
+	margin-left: 10px;
+}
+
+
+
+
+/*article h2 {
+	border-top: 13px solid #DCDCDC;
+	border-bottom: 13px solid #DCDCDC;  
+	margin: 20 0 20px 0;
+	padding: 5px;
+	font: 1.5em eros bold itc, sans-serif;
+	color: #808000;
+	font-weight: bolder
+}*/
+article.artigo2 {
+	clear:both;
+}
+
+article p {
+	margin: 0 0 10px 0;
+}
+
+*article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
+footer{
+	background:#DCDCDC;
+    padding: 1px 0px 1px 300px;          
+    font: 0.78em eros bold itc, sans-serif;
+	}
+	
+	
