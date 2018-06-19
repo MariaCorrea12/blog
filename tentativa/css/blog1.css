@@ -1,0 +1,231 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+body{
+    background-color: gray;
+	font: 20px arial, helvica;
+	padding: 0;
+	margin-top: 50px;
+}
+
+header{
+	background-color: gray;
+}
+
+.corpo {
+	width: 50%;
+	margin: auto;
+	background-color: white;
+	padding: 10px;
+		
+}
+
+
+.logo{
+	position: fixed;
+	width: 15%;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 500px;
+	
+	
+	
+}
+img{
+	max-width: 100%;
+}
+
+#menu1{
+	max-width: 600px;
+	margin-right: 5%;
+	float: righ;
+	padding-top: 5px;
+	margin-bottom: 5%;
+	margin-left: 65%;
+	margin-top:3%;
+
+	
+	
+}
+
+#menu1 > a {
+    display:inline;
+	padding-right: 25px;
+	margin-top: 0;
+	
+}
+
+
+#menu{
+	max-width: 600px;
+	margin: 30px auto;
+	background: gray;
+	text-align: center;
+	border-radius: 5px;
+
+}
+	
+#menu > a {
+	display: inline-block;
+	padding: 15px 30px;
+	font: 25px arial;
+	color: white;
+}
+
+
+@media (max-width: 800px){
+	.menu > a{
+		display: block;
+	}
+}
+
+
+.inicio{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 30px;
+	
+}
+
+h1{
+	font: 30px arial sans-serif;
+	margin-top: 50px;
+	margin-left: 100px;
+	color: #88888;
+	text-align: justify;
+}
+
+p {
+	margin: 30px ;
+	text-align: justify;
+}
+
+h2{
+	font: 1.5em arial black, sans-serif;
+	color: #808000;
+	margin-bottom: 50px;
+	margin-top: 70px;
+}
+
+
+article {
+	text-align: justify;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.img_pequena {
+    width: 5%;
+	height: 5%;
+}	
+
+p.diferente{
+	text-align:center;
+	margin:10px;
+	font: 1.4em eras medium itc, sans-serif ;
+	color: #BDB76B;
+}
+
+ 
+
+ .aside_fatec li{
+	 margin-left:100px;
+	 width: 310px;
+	 height: 250px;
+ }
+ 
+
+
+    	
+}
+
+.img_terceira {
+    width: 300px;
+	height: 330px;
+	border: 3px solid #BDB76B;
+	float: right;
+	margin-left: 10px;
+}
+
+.img_quarta {
+	width:300px;
+	height: 350px;
+	border: 3px solid #BDB76B;
+	float: left;
+	margin-right: 10px;
+	
+}
+
+.img_quinta {
+	width: 725px;
+	height: 400px;
+	float: center;
+}
+
+.img_sexta {
+	width: 70px;
+	height: 70px;
+	float: right;
+}
+
+.img_oitava {
+	width: 100%;
+	height: 100%;
+	float: center;
+}
+
+.img_primeira{
+	width: 170px;
+	height: 120px;
+	float: right;
+	margin-left: 10px;
+	border: 3px solid #BDB76B;
+}
+
+.img_nona {
+    width: 330px;
+	height: 400px;
+	float: right;
+	margin-left: 10px;
+}
+
+
+
+
+/*article h2 {
+	border-top: 13px solid #DCDCDC;
+	border-bottom: 13px solid #DCDCDC;  
+	margin: 20 0 20px 0;
+	padding: 5px;
+	font: 1.5em eros bold itc, sans-serif;
+	color: #808000;
+	font-weight: bolder
+}*/
+article.artigo2 {
+	clear:both;
+}
+
+article p {
+	margin: 0 0 10px 0;
+}
+
+*article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
+footer{
+	background:black;
+    padding: 1px 0px 1px 300px;          
+    font: 0.78em eros bold itc, sans-serif;
+	}
+	
+	
