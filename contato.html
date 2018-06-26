@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br"><head>
+<html lang="pt-br">
+<head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=devide-width, height-device-height, initial-scale=1, maxice-height, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css"	href="css/blog.css" media="all"/> 
@@ -8,12 +9,66 @@
 <body>
 	<section class="corpo">
 		<header>
-			<a href="https://www.google.com"><img src="imagens/chrome.jpg" alt="acessar site google chrome" class="img_pequena"></a>
+		<nav id="menu1">
+			<a href="https://pt-br.facebook.com/login/"><img src="imagens/face.png" alt="acessar site facebook" class="img_face"></a>
+			<a href="https://twitter.com/login?lang=pt"><img src="imagens/tw.jpg" alt="acessar site twitter" class="img_tw"</a>
+			
+		</nav>
+			<img class="logo" src="imagens/inside1.png"/>
 				<nav id="menu">
 					<a href="index.html">HOME</a>
-					<a href="serviços.html">SERVIÇOS</a>
-					<a href="serviços.html">INFORMAÇÕES</a>
+					<a href="informação.html">INFORMAÇÃO</a>
+					<a href="serviço.html">SERVIÇO</a>
 					<a href="contato.html">CONTATO</a>
 				</nav>	
-			<img class="logo" src="imagens/inside1.png"/>
 		</header>
+	<article>
+			<h2>Espero seu Contato</h2></br>
+				<p> Adorei sua visita, espero que tenha gostado de conhecer o meu Blog, caso deseje mais informações sobre os
+				   cursos oferecidos pela Fatec, deixe seu contato e também seu comentário, sua opnião é muito importante.</p>
+				<p>Muito Obrigada!</p></br>
+				
+				</article>
+				<aside class="aside_fatec">
+					<h2>Conhecendo a Estrutura</h2>
+						<ul>
+							<li><img alt="fatec" src="imagens/fatec1.jpg"/></li>
+							<li><img alt="fachada" src="imagens/fachadafatec.jpg"/></li>
+							<li><img alt="biblioteca" src="imagens/biblioteca.jpg"/></li>
+							<li><img alt="laboratorio" src="imagens/laboratorio.jpg"/></li>
+						</ul>
+				</aside>
+			
+				
+					<form method="post" action="#">
+				<fieldset>
+					<legend>Dados pessoais</legend>
+					</br>
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome" maxlength="100" size="80"/>
+					</br></br>
+					<label for="tel">Telefone:</label>
+					<input type="tel" id="tel" placeholder="digite aqui seu telefone"/>
+					</br></br>
+					
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" maxlength="100" size="60"/>
+					</br></br>
+					<label for="observação"></label>
+					<textarea cols="45"rows="8"id="observação"size="112px"
+					     placeholder="Deixe aqui a sua observação"></textarea>
+					<input class="dis_inline" type="reset" value="Limpar"/>
+					<input class="dis_inline" type="submit" value="Enviar"/>
+			    </fieldset>
+				</br>
+				<p>Para que possamos nos comunicar melhor segue abaixo meus contatos:</p>
+				<p>E-mails: correaandrea1@gmail.com ou maria.correa01@fatec.sp.gov.br</p></br>
+	    </article>
+		<footer>
+		<img class="final" src="imagens/final.png"/>
+			<p class="footer">Assistência Técnica Especializada.  Atendemos toda região.   Venha nos visitar!<br><br>
+				Rua Vereador Sebastião de Moraes - 585 - Jales (SP)</p>
+			<p class="footer">Contados:(17)99632-5286    insidetecnologia@gmail.com</p>
+	</footer>
+</body>
+</html>
