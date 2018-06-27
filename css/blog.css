@@ -18,6 +18,7 @@ body{
 	background-color: #FFFFFF;
 	padding: 0;
 }
+
 /*logotipo da Empresa*/
 .logo{
 	position: relative;
@@ -31,6 +32,7 @@ body{
 img{
 	max-width: 100%;
 }
+
 /*Menu principal*/
 #menu1{
 	max-width: 600px;
@@ -46,7 +48,7 @@ img{
 }
 
 #menu{
-	max-width: 800px;
+	width: 75%;
 	margin-left: 12%;
 	background-color: #585858;
 	text-align: center;
@@ -58,6 +60,7 @@ img{
 	font: 20px arial black; 
 	color: white;
 }
+
 /*inserindo flexbox como galeria*/
 .inicios {
     display: flex;
@@ -112,7 +115,8 @@ article {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-/*Configurando as imagens*/
+
+/*Formatando as imagens*/
 .img_tw{
     width: 11%;
 	height: 11%;
@@ -163,25 +167,206 @@ footer {
 	width: 75%;
 	height: 150px;
 	background-color: #585858;
-	text-align:center;
 	padding:5px;
 	margin-top:7px;
-	margin-left: 12%;
+	margin-left: 13%;
 }
 p.footer{
 	color: #FFFFFF;
 	text-align: center;
 }
 
-/*Processando a responsividade*/
+/*Layout Responsivo*/
+
+@media (max-width: 350px){
+	.inicios {
+    display: flex;
+	flex-direction: row;
+	padding-left: 1px;
+	border-radius: 1px;
+	}
+	
+	.inicio {
+    width: 80px;
+	height: 50px;
+    margin: 0px;
+	}
+	
+	.inicio img {
+    max-width: 300px;
+	width: 100%;
+	height: 100%;
+	}
+	
+	h2{
+		font-size: 10px;
+	}
+	
+	p{
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: justify;
+	}
+}
+
+@media (max-width: 470px){
+	#menu > a {
+	display: inline-block;
+	padding: 15px 25px 25px 5px;
+	}
+	
+	.final{
+	position: relative;
+	width: 40%;
+	height: 120px;
+	float: center;
+	}
+	
+	footer {
+	width: 75%;
+	height: 120px;
+	background-color: #585858;
+	padding:5px;
+	margin-top:7px;
+	margin-left: 13%;
+	}
+	
+	.img_profissional2{
+	width: 30%;
+	height: 30%;
+	float: right;
+	}
+}
+
+@media (max-width: 650px){
+	.inicios {
+    display: flex;
+	flex-direction: row;
+	padding-left: 5px;
+	}
+	
+	.inicio {
+    width: 200px;
+	height: 100px;
+    margin: 0px;
+	}
+	
+	.inicio img {
+    max-width: 600px;
+	width: 100%;
+	height: 100%;
+	}
+
+	.inicio .text {
+	color: #585858;
+	width: 100%;
+	height: 100%;
+	}
+	
+	h2{
+		font-size: 15px;
+	}
+	
+	p{
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: justify;
+	}
+}
+
+@media (max-width: 700px){
+	.logo {
+		width: 65%;
+		margin-left: 18%;
+	}
+	.img_tw{
+    width: 27%;
+	height: 27%;
+	}	
+
+	.img_face{
+    width: 28%;
+	height: 28%;
+	}
+	#menu1 > a {
+    display:inline;
+	padding-right: 18px;   
+	}
+}
 
 @media (max-width: 800px){
 	.menu > a{
 		display: block;
 		width: 100%;
 	}
+	
+	.inicios {
+    padding-left: 5px;
+	}
+	
+	.inicio {
+    width: 250px;
+	height: 100px;
+    margin: 5px;
+	}
+	
+	h2{
+		font-size: 25px;
+	}
+	
+	.final{
+	position: relative;
+	width: 60%;
+	height: 150px;
+	float: center;
+	}
+	
+	footer {
+	width: 75%;
+	height: 100px;
+	background-color: #585858;
+	padding:5px;
+	margin-top:7px;
+	margin-left: 13%;
+	}
+	
+	h1{
+	font: 20px arial;
+	}
+	
+	body{
+	font: 10px verdana, helvica;
+	}
 }
 
+@media (max-width: 1020px){
+	.final{
+	position: relative;
+	width: 70%;
+	height: 120px;
+	float: center;
+	}
+	
+	footer {
+	width: 75%;
+	height: 250px;
+	background-color: #585858;
+	padding:5px;
+	margin-top:7px;
+	}
+	
+	.img_profissional2{
+	width: 40%;
+	height: 40%;
+	float: right;
+	}
+	
+	body{
+	font: 13px verdana, helvica;
+	}
+}
 
 
 
