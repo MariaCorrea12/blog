@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #FFFFFF;
 	font: 15px verdana, helvica;
 	padding: 0;
 	margin-top: 50px;
@@ -15,11 +15,10 @@ body{
 .corpo {
 	width: 75%;
 	margin: auto;
-	background-color: white;
+	background-color: #FFFFFF;
 	padding: 0;
-	
 }
-
+/*logotipo da Empresa*/
 .logo{
 	position: relative;
 	width: 50%;
@@ -32,7 +31,7 @@ body{
 img{
 	max-width: 100%;
 }
-
+/*Menu principal*/
 #menu1{
 	max-width: 600px;
 	margin-left: 70%;
@@ -42,20 +41,6 @@ img{
 #menu1 > a {
     display:inline;
 	padding-right: 30px;
-	margin-top: 0;
-	text-decoration: none;
-}
-
-#menu2{
-	max-width: 600px;
-	margin-left: 90%;
-	margin-top:3%;
-	margin-right: 0;
-}
-
-#menu2 > a {
-    display:inline;
-	padding-left: 40px;
 	margin-top: 0;
 	text-decoration: none;
 }
@@ -73,67 +58,35 @@ img{
 	font: 20px arial black; 
 	color: white;
 }
-
-
-
-
+/*inserindo flexbox como galeria*/
 .inicios {
     display: flex;
 	flex-direction: rown;
 	height: 100vh;
 	padding-left: 25px;
 	
-  }
-  .inicio {
+}
+
+.inicio {
     width: 300px;
 	height: 250px;
     margin: 10px;
     border: 3px solid gray;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  } 
-  .inicio img {
+} 
+  
+.inicio img {
     max-width: 800px;
 	width: 100%;
 	height: 100%;
-  }
-  .inicio .text {
-   
+}
+
+.inicio .text {
 	color: #585858;
 	width: 100%;
 	height: 100%;
 	margin: auto;
   }
-  
- #content{ 
-  clear: right;
-  background-color: white;
-  width: 100%;
-  margin: 0 auto;
-  padding: 40px;
-}
-#int {
-  background-color: white;
-  width: 45%;
-  padding: 20px;
-  height: 250px;
-  margin: 15px;
-  border: 2px gray;
-}
-#topleft{
-	float:left; 
-	height: 250px;
-	background-color: white;
-}
-
-#topRight{
-	float: Right;    
-}
-#bottomleft{
-	float:left;
-}
-#bottomRight{
-	float:Right;   
-}
 
 h1{
 	font: 30px arial;
@@ -141,7 +94,6 @@ h1{
 	margin-left: 0;
 	color: #585858;
 	text-align: left;
-
 }
 
 p {
@@ -151,19 +103,16 @@ p {
 	text-align: justify;
 }
 
-
-
 h2{
 	color: #2E2E2E;
-	
 }
 
 article {
 	text-align: justify;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
-
+/*Configurando as imagens*/
 .img_tw{
     width: 11%;
 	height: 11%;
@@ -173,6 +122,7 @@ article {
     width: 10%;
 	height: 10%;
 }	
+
 .img_google{
 	width: 40%;
 	height: 40%;
@@ -183,6 +133,25 @@ article {
 	height: 20%;
 	float: right;
 }
+
+.img_dois{
+	width: 20%;
+	height: 20%;
+	float: right;
+}
+.img_profissional{
+	width: 100%;
+	height: 40%;
+	border-radius: 2px;
+	box-shadow: 4px 4px;
+}
+
+.img_profissional2{
+	width: 25%;
+	height: 25%;
+	float: right;
+}
+
 .final{
 	position: relative;
 	width: 15%;
@@ -200,10 +169,11 @@ footer {
 	margin-left: 12%;
 }
 p.footer{
-	color: white;
+	color: #FFFFFF;
 	text-align: center;
-	
 }
+
+/*Processando a responsividade*/
 
 @media (max-width: 800px){
 	.menu > a{
