@@ -48,40 +48,40 @@ img{
 }
 
 #menu{
-	width: 75%;
-	margin-left: 12%;
-	background-color: #585858;
+	width: 100%;
 	text-align: center;
+	background-color: #708090;
 }
 	
 #menu > a {
 	display: inline-block;
-	padding: 15px 25px;
+	padding: 30px 45px 30px 0px;
 	font: 20px arial black; 
 	color: white;
+}
+
+#menu a:hover{
+	color: #4169E1;
 }
 
 /*inserindo flexbox como galeria*/
 .inicios {
     display: flex;
-	flex-direction: rown;
-	height: 100vh;
-	padding-left: 25px;
-	
+	flex-wrap: wrap;
+	margin: 5em 0;
+	padding: 1em;
 }
 
 .inicio {
-    width: 300px;
-	height: 250px;
-    margin: 10px;
-    border: 3px solid gray;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    flex: 1 0 15em;
+    margin: 1em;
+    min-width: 8em;
+    min-height: 8em;
 } 
   
 .inicio img {
-    max-width: 800px;
-	width: 100%;
-	height: 100%;
+    display: block;
+    width: 100%;
 }
 
 .inicio .text {
@@ -90,6 +90,7 @@ img{
 	height: 100%;
 	margin: auto;
   }
+
 
 h1{
 	font: 30px arial;
@@ -108,6 +109,7 @@ p {
 
 h2{
 	color: #2E2E2E;
+	text-align: center;
 }
 
 article {
@@ -117,14 +119,9 @@ article {
 }
 
 /*Formatando as imagens*/
-.img_tw{
-    width: 11%;
-	height: 11%;
-}	
-
-.img_face{
-    width: 10%;
-	height: 10%;
+.img_menu1{
+    width: 15%;
+	height: 15%;
 }	
 
 .img_google{
@@ -145,28 +142,23 @@ article {
 }
 .img_profissional{
 	width: 100%;
-	height: 40%;
+	height: 50%;
 	border-radius: 2px;
 	box-shadow: 4px 4px;
-}
-
-.img_profissional2{
-	width: 25%;
-	height: 25%;
-	float: right;
+	float: center;
+	position: relative;
 }
 
 .final{
-	position: relative;
 	width: 15%;
-	height: 120px;
+	height: 15%;
 	float: left;
 }
-
+	
 footer {
+	position: relative;
 	width: 75%;
-	height: 150px;
-	background-color: #585858;
+	background-color: #708090;
 	padding:5px;
 	margin-top:7px;
 	margin-left: 13%;
@@ -176,201 +168,90 @@ p.footer{
 	text-align: center;
 }
 
+/*Formulario de Contato*/
+
+.formContato {
+   width: 100%;  
+}  
+.formContato input {  
+   width: 90%;  
+   margin-left: 10px;  
+   margin-right: 10px;  
+}  
+.formContato textarea {  
+   width: 90%;  
+   margin-left: 10px;  
+   margin-right: 10px;  
+}  
+.botaoContato {  
+   margin-left: 10px;  
+   margin-right: 10px;  
+   margin-top: 1px;  
+}  
+.pgContato input {  
+   padding-left: 20px;  
+   color: #292929;  
+   font-size: 18px;  
+   background-color: #E9E9E9;  
+   border: 1px solid #E9E9E9;  
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;  
+   height: 40px;  
+   margin-bottom: 20px;  
+   border-bottom: 1px solid #ccc;  
+   border-left: 1px solid #ccc;  
+}  
+.pgContato textarea {  
+   padding-left: 20px;  
+   color: #292929;  
+   font-size: 18px;  
+   background-color: #E9E9E9;  
+   border: 1px solid #E9E9E9;  
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;  
+   height: 200px;  
+   margin-bottom: 20px;  
+   border-bottom: 1px solid #ccc;  
+   border-left: 1px solid #ccc;  
+}  
+.botaoContato {  
+   border-radius: 4px;  
+   color: #fff;  
+   padding: 2px 40px;  
+   height: 40px;  
+   margin-top: 18px;  
+   opacity: 0.9;  
+   margin-bottom: 20px;  
+   cursor: pointer;  
+   background: #B22222;  
+   display: inline-block;  
+   border: none;  
+   border-bottom: 1px solid #500707;  
+   border-right: 1px solid #500707;  
+}  
+.botaoContato:hover {  
+   opacity: 1.0;  
+   transition: 1s;  
+}
+
 /*Layout Responsivo*/
 
-@media (max-width: 350px){
-	.inicios {
-    display: flex;
-	flex-direction: row;
-	padding-left: 1px;
-	border-radius: 1px;
-	}
-	
-	.inicio {
-    width: 80px;
-	height: 50px;
-    margin: 0px;
-	}
-	
-	.inicio img {
-    max-width: 300px;
-	width: 100%;
-	height: 100%;
-	}
-	
-	h2{
-		font-size: 10px;
-	}
-	
-	p{
-	margin-left: 0;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	text-align: justify;
-	}
-}
-
-@media (max-width: 470px){
-	#menu > a {
-	display: inline-block;
-	padding: 15px 25px 25px 5px;
-	}
-	
-	.final{
-	position: relative;
-	width: 40%;
-	height: 120px;
-	float: center;
-	}
-	
-	footer {
-	width: 75%;
-	height: 120px;
-	background-color: #585858;
-	padding:5px;
-	margin-top:7px;
-	margin-left: 13%;
-	}
-	
-	.img_profissional2{
-	width: 30%;
-	height: 30%;
-	float: right;
-	}
-}
-
-@media (max-width: 650px){
-	.inicios {
-    display: flex;
-	flex-direction: row;
-	padding-left: 5px;
-	}
-	
-	.inicio {
-    width: 200px;
-	height: 100px;
-    margin: 0px;
-	}
-	
-	.inicio img {
-    max-width: 600px;
-	width: 100%;
-	height: 100%;
-	}
-
-	.inicio .text {
-	color: #585858;
-	width: 100%;
-	height: 100%;
-	}
-	
-	h2{
-		font-size: 15px;
-	}
-	
-	p{
-	margin-left: 0;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	text-align: justify;
-	}
-}
-
-@media (max-width: 700px){
-	.logo {
-		width: 65%;
-		margin-left: 18%;
-	}
-	.img_tw{
-    width: 27%;
-	height: 27%;
-	}	
-
-	.img_face{
-    width: 28%;
-	height: 28%;
-	}
-	#menu1 > a {
-    display:inline;
-	padding-right: 18px;   
-	}
-}
-
-@media (max-width: 800px){
-	.menu > a{
+@media (max-width: 900px){
+	.menu a{
 		display: block;
 		width: 100%;
 	}
-	
-	.inicios {
-    padding-left: 5px;
-	}
-	
-	.inicio {
-    width: 250px;
-	height: 100px;
-    margin: 5px;
-	}
-	
-	h2{
-		font-size: 25px;
-	}
-	
-	.final{
-	position: relative;
-	width: 60%;
-	height: 150px;
-	float: center;
-	}
-	
-	footer {
-	width: 75%;
-	height: 100px;
-	background-color: #585858;
-	padding:5px;
-	margin-top:7px;
-	margin-left: 13%;
-	}
-	
-	h1{
-	font: 20px arial;
-	}
-	
-	body{
-	font: 10px verdana, helvica;
-	}
-}
+}	
 
-@media (max-width: 1020px){
-	.final{
+@media (max-width: 450px){
+	.logo{
 	position: relative;
 	width: 70%;
-	height: 120px;
-	float: center;
-	}
-	
-	footer {
-	width: 75%;
-	height: 250px;
-	background-color: #585858;
-	padding:5px;
-	margin-top:7px;
-	}
-	
-	.img_profissional2{
-	width: 40%;
-	height: 40%;
-	float: right;
-	}
-	
-	body{
-	font: 13px verdana, helvica;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-bottom: 30px;
 	}
 }
-
-
-
-
-
-
-	
